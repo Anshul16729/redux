@@ -30,7 +30,7 @@
 
 /* */
 .btn-wrapper button{
-  background-color: red;
+  background-color: green;
   border:0px;
   padding: 10px;
   border-radius: 4px;
@@ -42,10 +42,10 @@ margin-top: 10px;
 
 .img-wrapper img{
 width: 40px;
-margin-top: -10px;
+margin-top: 10px;
 }
 .cart-wrapper{
-height: 100px;
+height: 140px;
 width: 500px;
 border:1px solid #ccc;
 margin-left: 10%;
@@ -53,7 +53,7 @@ margin-left: 10%;
 .item{
   float:left;
   width:120px;
-  padding: 20px;
+  padding: 18px;
   height:70px;
 }
 .add-to-cart img{
@@ -62,6 +62,9 @@ right: 1%;
 top:1%;
 margin-right: 25px;
 float: right;
+}
+button.remove-cart-btn{
+background-color: red;
 }
 /* */
 
